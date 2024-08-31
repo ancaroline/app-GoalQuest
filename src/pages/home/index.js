@@ -1,7 +1,7 @@
 import React from "react";
 import { Text, View, StyleSheet, TouchableOpacity } from "react-native";
 
-export default function HomeScreen ({ navigation }) {
+export function HomeScreen ({ navigation }) {
     return (
         <View style={styles.container}>
           <Text style={styles.text}>Vamos criar algo novo juntos.</Text>
@@ -16,6 +16,7 @@ export default function HomeScreen ({ navigation }) {
         </View>
       );
     }
+    
     
     const styles = StyleSheet.create({
       container: {
